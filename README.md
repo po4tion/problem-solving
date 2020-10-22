@@ -2,6 +2,8 @@
 
 Current state : Baekjoon 단계별로 풀어보기 <strong>단계 8(수학 1)</strong> 진행중
 
+Language : node.js
+
 <h2>Problem Solving Sites</h2>
 
 1. [BaekJoon Online Judge](https://www.acmicpc.net/)
