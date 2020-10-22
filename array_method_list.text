@@ -1,0 +1,35 @@
+// 수정 메소드
+array.fill()            // 배열을 덮어쓸수도 있고 초기화 때 사용하면 좋을듯
+array.pop()             // 뒤에서부터 출력할 때 사용하면 좋을듯
+array.reverse()         // 배열 역순
+array.shift()           // 앞에서부터 제거후 출력
+array.sort()            // 유니코드 코드 포인트 순으로 정렬
+array.splice()
+
+// 접근자 메서드
+array.concat()          // 배열이나 값들을 기존 배열에 합쳐서 새 배열 반환
+array.filter()          // 주어진 함수의 테스트를 통과하는 모든 요소들로 배열 생성
+array.includes()        // 배열이 특정 요소를 포함하고 있는지 판별 boolean 값 반환
+array.indexOf()         // 배열에서 지정된 요소를 찾을 수 있는 첫 번째 인덱스 반환(존재x -1반환)
+array.join()            // 문자열을 지정한 구분자로 연결해 하나의 문자열을 만듦.
+array.toString()
+
+// 순회 메서드
+array.forEach()
+array.map()
+array.reduce();
+
+// ES6
+set 함수                    // 중복값 안들어가는 리스트
+for of                    // 객체 불가능
+for in                       // 객체 {"a" : 1, "b" ; 2} 가능
+
+
+// Math 함수
+Math.max                  // Math.max.apply(null, func) 배열 Math.max.apply(null, Object.values(객체)) 오브젝트 키값들
+Math.min
+
+
+// 배열 길이 정하고 0으로 초기화 예시
+let checkString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let countArray = Array.from({ length: checkString.length }, () => 0);
