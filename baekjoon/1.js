@@ -41,7 +41,7 @@ const rl = readline.createInterface({
 let input = [];
 
 rl.on('line', function (line) {
-    input = line.split(' ').map(x => parseInt(x));
+  input = line.split(' ').map(x => parseInt(x));
 }).on('close', function () {
-    console.log();
+  console.log();
 });
