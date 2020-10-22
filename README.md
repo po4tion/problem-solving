@@ -4,7 +4,7 @@ Current state : Baekjoon 단계별로 풀어보기 <strong>단계 7(문자열)</
 
 <h2>Problem Solving Sites</h2>
 
-1. <a href="https://www.acmicpc.net/" alt="백준" target="_blank">BaekJoon Online Judge</a>
+1. <a href="https://www.acmicpc.net/" alt="백준" onclick="return ! window.open(this.href);">BaekJoon Online Judge</a>
 
 2. <a href="https://swexpertacademy.com/main/main.do" alt="삼성" target="_blank">SW Expert Academy</a>
 
