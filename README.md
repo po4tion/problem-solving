@@ -4,12 +4,12 @@ Current state : Baekjoon 단계별로 풀어보기 <strong>단계 7(문자열)</
 
 <h2>Problem Solving Sites</h2>
 
-1. <a href="https://www.acmicpc.net/" alt="백준" onclick="return ! window.open(this.href);">BaekJoon Online Judge</a>
+1. [BaekJoon Online Judge](https://www.acmicpc.net/)
 
-2. <a href="https://swexpertacademy.com/main/main.do" alt="삼성" target="_blank">SW Expert Academy</a>
+2. [SW Expert Academy](https://swexpertacademy.com/main/main.do)
 
-3. <a href="https://programmers.co.kr/learn/challenges" alt="프로그래머스" target="_blank">프로그래머스</a>
+3. [프로그래머스](https://programmers.co.kr/learn/challenges)
 
-4. <a href="https://codeforces.com/" alt="코드포스" target="_blank">CODE FORCES</a>
+4. [CODE FORCES](https://codeforces.com)
 
-5. <a href="https://www.hackerrank.com/" alt="해커랭크" target="_blank">HackerRank</a>
+5. [HackerRank](https://www.hackerrank.com/)
