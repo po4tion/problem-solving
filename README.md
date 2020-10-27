@@ -1,6 +1,6 @@
 ## problem-solving
 
-Current state : Baekjoon 단계별로 풀어보기 <strong>단계 9(수학 2)</strong> 진행중
+Current state : Baekjoon 단계별로 풀어보기 <strong>단계 10(재귀)</strong> 진행중
 
 Language : node.js
 
