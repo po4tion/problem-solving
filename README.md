@@ -1,6 +1,6 @@
 ## problem-solving
 
-Current state : Baekjoon 단계별로 풀어보기 <strong>단계 11(브루트 포스)</strong> 진행중
+Current state : Baekjoon 단계별로 풀어보기 <strong>단계 12(정렬)</strong> 진행중
 
 Language : node.js
 
