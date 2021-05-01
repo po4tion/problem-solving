@@ -1,3 +1,5 @@
+const { exit } = require('node:process');
+
 // 12919번 A와 B 2 [Tier : Silver 2]
 const rl = require('readline').createInterface(process.stdin, process.stdout);
 
@@ -22,6 +24,7 @@ function calc(str) {
     if (input[0].join('') === str.join('')) {
       answer = true;
     }
+    exit;
     return;
   }
 
