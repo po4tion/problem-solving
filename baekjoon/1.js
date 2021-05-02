@@ -70,9 +70,13 @@ rl.on('line', function (line) {
   console.log(test);
 });
 
-// fs 모듈 사용
-var fs = require('fs');
-var input = fs.readFileSync('dev/stdin.txt').toString().split(' ');
-var a = parseInt(input[0]);
-var b = parseInt(input[1]);
-console.log(a + b);
+// -----------------------------------------------------------------
+const rl = require('readline').createInterface(process.stdin, process.stdout);
+
+let input = '';
+
+rl.on('line', (line) => {
+  input = line;
+}).on('close', () => {
+  console.log(input);
+});
