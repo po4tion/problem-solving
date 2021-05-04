@@ -1,4 +1,5 @@
 // 6588번 골드바흐의 추측
+
 const rl = require('readline').createInterface(process.stdin, process.stdout);
 
 const input = [];
@@ -12,6 +13,7 @@ rl.on('line', (line) => {
   }
   input.push(+line);
 }).on('close', () => {
+  // console.time('check');
   const maxNum = Math.max(...input);
 
   for (let i = 0; i <= maxNum; i++) {
@@ -38,4 +40,5 @@ rl.on('line', (line) => {
   }
 
   console.log(answer);
+  // console.timeEnd('check');
 });
