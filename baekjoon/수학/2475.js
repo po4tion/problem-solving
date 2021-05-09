@@ -1,4 +1,4 @@
-// 2474번 검증수
+// 2475번 검증수
 const rl = require('readline').createInterface(process.stdin, process.stdout);
 
 let input = [];
