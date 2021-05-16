@@ -1,4 +1,4 @@
-// 8진수 2진수
+// 1212번 8진수 2진수
 const rl = require('readline').createInterface(process.stdin, process.stdout);
 
 let input = [];
