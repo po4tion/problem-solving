@@ -62,12 +62,11 @@ rl.on('line', function (line) {
 const rl = require('readline').createInterface(process.stdin, process.stdout);
 
 let input = [];
-let test;
 
 rl.on('line', function (line) {
-  test = input.concat(line.split('').map((x) => parseInt(x)));
+  input = input.concat(line.split('').map((x) => parseInt(x)));
 }).on('close', function () {
-  console.log(test);
+  console.log(input);
 });
 
 // -----------------------------------------------------------------

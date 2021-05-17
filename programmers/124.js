@@ -14,8 +14,8 @@ while (n !== 1 && n !== 2) {
 
   n = parseInt((n - 1) / 3);
 
-  store.push(r);
+  store.unshift(r);
 }
 
-const answer = '' + n + store.reverse().join('');
+const answer = '' + n + store.join('');
 console.log(answer);
