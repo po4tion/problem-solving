@@ -1,3 +1,3 @@
-const a = [1];
+const fs = require('fs').readFileSync('./dev/stdin.txt').toString().split('\n');
 
-console.log(a);
+console.log(fs);
