@@ -70,6 +70,7 @@ rl.on('line', function (line) {
 });
 
 // -----------------------------------------------------------------
+// #
 const rl = require('readline').createInterface(process.stdin, process.stdout);
 
 let input = '';
@@ -79,3 +80,11 @@ rl.on('line', (line) => {
 }).on('close', () => {
   console.log(input);
 });
+
+/*
+Input
+
+
+Output
+
+*/
